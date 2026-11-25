@@ -1,0 +1,14 @@
+{
+    "testedPrCommit":  "33a4d36aa93a4b8f731837ded6810b45df32000e",
+    "guestArchitecture":  "x86_64",
+    "testedSources":  {
+                          "26.04_linux-nvidia-7.3-next":  "4bad1c1252a59874186ac06365ca9d3f8cabc709",
+                          "24.04_linux-nvidia-7.0-next":  "18f0eb33acddde0398e7b76354ad9840e3192174"
+                      },
+    "region":  "westus3",
+    "hostUserspace":  "Ubuntu 24.04",
+    "vmSize":  "Standard_D32as_v5",
+    "guestPageSize":  4096,
+    "scope":  "Complete virtme-configured source kernel builds and actual QEMU boot checks; not Ubuntu package builds, ARM64 source builds, kselftests, or physical NVIDIA hardware validation",
+    "cleanupVerified":  true
+}
